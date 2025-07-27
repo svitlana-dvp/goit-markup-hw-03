@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -14,24 +14,26 @@
     
 </head>
 <body>
-<header>
-<nav class="text-nav">
-    <a href="./index.html" class="logo"> Web<span class="accept">Studio</span></a>
-    <ul>
+<header class="content">
+
+  <div class="container-content">
+  <nav class="text-nav" class="container-nav">
+    <a href="./index.html" class="logo" class="box-logo"> Web<span class="accept">Studio</span></a>
+    <ul class="container-list">
         <li>
-            <a href="./index.html" class="link">Studio</a>
+            <a href="./index.html" class="link" class="conteiner-link">Studio</a>
         </li>
         <li>
-            <a href="" class="link">Portfolio</a>
+            <a href="" class="link" class="conteiner-link">Portfolio</a>
         </li>
         <li>
-            <a href="" class="link">Contacts</a>
+            <a href="" class="link" class="conteiner-link">Contacts</a>
         </li>
     </ul>
 </nav>
 
 <address class="text-address">
-<ul>
+<ul class="container-address">
     <li>
         <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
     </li>
@@ -40,6 +42,7 @@
     </li>
 </ul>
 </address>
+</div>
 
 </header>
 <main>

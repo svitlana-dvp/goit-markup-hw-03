@@ -180,3 +180,52 @@ a {
     text-transform: uppercase;
     color: #f4f4fd;
 }
+
+img {
+    display: block;
+}
+
+.container {
+    max-width:
+    padding-left: 
+    padding-right: 
+    margin-left: 
+    margin-right:
+}
+
+.content {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.container-content {
+    display: flex;
+}
+
+.container-nav {
+    display: flex;
+    align-items: center;
+}
+
+.default-container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.box-logo {
+    margin-right: 76px
+}
+
+.container-list {
+    display: flex;
+    gap: 40px;
+}
+
+.conteiner-link {
+    padding: 24px 0;
+}
+
+.container-address {
+    display: flex;
+    gap: 40px;
+}
