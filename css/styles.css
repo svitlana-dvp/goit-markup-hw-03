@@ -206,14 +206,14 @@ img {
     align-items: center;
 }
 
-.default-container {
+.container {
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 15px 0 15px;
 }
 
 .box-logo {
-    margin-right: 76px
+    margin-right: 76px;
 }
 
 .container-list {
@@ -222,10 +222,28 @@ img {
 }
 
 .conteiner-link {
-    padding: 24px 0;
+    padding: 24px 0 24px;
 }
 
 .container-address {
     display: flex;
     gap: 40px;
+}
+
+.container-zone {
+    padding: 188px 0;
+}
+
+.container-title-first {
+    max-width: 496px;
+}
+
+.container-button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4d5ae5;
+    border-radius: 4px;
+    cursor: pointer;
 }
