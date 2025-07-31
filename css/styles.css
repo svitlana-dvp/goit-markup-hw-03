@@ -30,6 +30,8 @@ ol {
 
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .accept {
@@ -201,6 +203,13 @@ img {
     color: #f4f4fd;
 }
 
+.container-header {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: block;
+}
+
 .container {
     width: 1158px;
     padding: 0 15px;
@@ -211,19 +220,13 @@ img {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.container-content {
-    display: flex;
-}
-
-.container-nav {
+nav a {
     display: flex;
     align-items: center;
 }
 
-.container {
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px 0 15px;
+.container-content {
+    display: flex;
 }
 
 .box-logo {
@@ -235,8 +238,8 @@ img {
     gap: 40px;
 }
 
-.conteiner-link {
-    padding: 24px 0 24px;
+.container-link {
+    padding: 24px 0;
 }
 
 .container-address {
@@ -273,8 +276,15 @@ img {
 
 .visually-hidden {
     position: absolute;
-    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
     white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0 );
+    overflow: hidden;
 }
 
 .list-container {
