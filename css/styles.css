@@ -2,6 +2,7 @@ body {
     font-family: Roboto, sans-serif;
     color: #434455;
     background-color: #ffffff;
+    margin: 0;
 }
 
 ul {
@@ -127,6 +128,14 @@ img {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    display: block;
+    margin-left: 550px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4d5ae5;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .zone .link:hover,
@@ -205,14 +214,14 @@ img {
 
 .container-header {
     width: 1158px;
-    padding: 0 15px;
+    padding: 0 15px 0 15px;
     margin: 0 auto;
     display: block;
 }
 
 .container {
     width: 1158px;
-    padding: 0 15px;
+    padding: 0 15px 0 15px;
     margin: 0 auto;
 }
 
@@ -220,7 +229,7 @@ img {
     border-bottom: 1px solid #e7e9fc;
 }
 
-nav a {
+.container-nav {
     display: flex;
     align-items: center;
 }
@@ -252,7 +261,10 @@ nav a {
 }
 
 .container-title-first {
-    max-width:496px;
+    max-width: 496px;
+    width: 1158px;
+        padding: 0 15px;
+        margin: 0 auto;
 }
 
 .container-button {
